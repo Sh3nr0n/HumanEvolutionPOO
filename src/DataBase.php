@@ -9,10 +9,10 @@ class DataBase{
     protected $_dbname;
     
     public function __construct(){
-        $this->_user = "marjorieandrieux_mehdi";
-        $this->_pwd = "motdepasse";
-        $this->_host = "postgresql-marjorieandrieux.alwaysdata.net";
-        $this->_dbname="marjorieandrieux_humanproject"; 
+        $this->_user = "";
+        $this->_pwd = "";
+        $this->_host = "";
+        $this->_dbname=""; 
     }
 
     public function connect(){
